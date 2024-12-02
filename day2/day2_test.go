@@ -12,7 +12,11 @@ var example = [][]int{
 }
 
 func TestChallange1Example(t *testing.T) {
+	result := CalculateNumberOfSafeReports(example)
 
+	if result != 2 {
+		t.Fail()
+	}
 }
 func TestChallange2Example(t *testing.T) {
 
