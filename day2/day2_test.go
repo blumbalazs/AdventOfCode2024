@@ -19,5 +19,8 @@ func TestChallange1Example(t *testing.T) {
 	}
 }
 func TestChallange2Example(t *testing.T) {
-
+	result := CalculateNumberOfSafeReportsWithToleration(example)
+	if result != 4 {
+		t.Fail()
+	}
 }

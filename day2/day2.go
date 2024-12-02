@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 	challange1Result := CalculateNumberOfSafeReports(input)
-	fmt.Printf("Challange 1 result: %d", challange1Result)
+	fmt.Printf("Challange 1 result: %d\n", challange1Result)
+
+	challange2Result := CalculateNumberOfSafeReportsWithToleration(input)
+	fmt.Printf("Challange 2 result: %d\n", challange2Result)
 }
 
 var input = [][]int{
